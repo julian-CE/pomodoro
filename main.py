@@ -35,8 +35,7 @@ def main():
         countdown(int(break_time))
         round_count += 1
         subprocess.run(["afplay", "./rooster.wav"])
-    else:
-        print("Exiting.")
-        sys.exit()
+    print("Exiting.")
+    sys.exit()
 
 main()
